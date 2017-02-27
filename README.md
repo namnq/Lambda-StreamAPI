@@ -12,7 +12,7 @@
   
 ## Exercise 1
 * Given two collections of interested topics, e.g: Java Stream API, Java Concurrency, Object-Oriented Programming,...
-    * one collection maintains a set of currently intersted topics (of a person)
+    * one collection maintains currently intersted topics (of a person)
     * one collection contains newly updated interested topics (a person may edit their interested topics)
     * a Topic has an unique id, a name, a description
 
