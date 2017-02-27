@@ -23,11 +23,11 @@
     
 ## Exercise 2
  * Given a list of programmers in a company
-      * a Programmer has id, division, team, gender, name
+    * a Programmer has id, division, team, gender, name
  * Process the list and categorize programers into divisions
-      * e.g: ```{division_1 => [Programmer 1, Programmer 2, Programmer 3, programmer 4 ], division_2 => [Programmer 5, Programmer 5 ]}```
+    * e.g: {division_1 => [Programmer 1, Programmer 2, Programmer 3, programmer 4 ], division_2 => [Programmer 5, Programmer 5 ]}
  * Process the list and categorize programers into divisions, then team, then gender
-      * e.g: ```{division_1 => {java => {male => [Programmer 1, Programmer 2], female => [Programmer 3]}, php => {male => [Programmer 4]}}```
+    * e.g: {division_1 => {java => {male => [Programmer 1, Programmer 2], female => [Programmer 3]}, php => {male => [Programmer 4]}}
      
    
     
