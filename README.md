@@ -20,8 +20,8 @@
     * newly added interested topics
     * updated interested topics
     * deleted interested topics
-    
- ## Exercise 2
+   
+## Exercise 2
  * Given a list of programmers in a company
     * a Programmer has id, division, team, gender, name
  *  Process the list and categorize programers into divisions, as below:
