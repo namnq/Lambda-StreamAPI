@@ -41,7 +41,7 @@
   ]
 }
  ```
- *  Process the list and categorize programers into divisions, then team, then gender, as below:
+ *  Process the list and categorize programers into divisions, then teams, then genders, as below:
  
 ```javascript
 {
