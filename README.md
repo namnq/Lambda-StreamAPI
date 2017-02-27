@@ -16,7 +16,7 @@
     * one collection contains newly updated interested topics (a person may edit their interested topics)
     * a Topic has an unique id, a name, a description
 
-* Use stream to find out all 
+* Find out all 
     * added interested topics
     * updated interested topics
     * deleted interested topics
