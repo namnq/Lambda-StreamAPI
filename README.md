@@ -9,6 +9,16 @@
 * What is a Stream?
 * How streams change our way of programing and make our code better?
   * Common operations on collections: using streams vs for-loop
-## Exercise
-  * 
   
+## Exercise
+  * Given two collections of interested topics, ex: Java stream API, Java Concurrency, Object-Oriented Programming,...
+    * one collection maintains a set of currently intersted topics (of a person)
+    * one collection contains newly updated interested topics (a person may edit their interested topics)
+    * a Topic has an unique id, a name, a description
+
+  * Use stream to find out all 
+    * added interested topics
+    * updated interested topics
+    * deleted interested topics
+   
+    
