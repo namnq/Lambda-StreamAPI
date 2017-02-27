@@ -21,13 +21,48 @@
     * updated interested topics
     * deleted interested topics
     
-## Exercise 2
+ ## Exercise 2
  * Given a list of programmers in a company
     * a Programmer has id, division, team, gender, name
- * Process the list and categorize programers into divisions
-    * {division_1 => [Programmer 1, Programmer 2, Programmer 3, programmer 4 ], division_2 => [Programmer 5, Programmer 5 ]}
- * Process the list and categorize programers into divisions, then team, then gender
-    * {division_1 => {java => {male => [Programmer 1, Programmer 2], female => [Programmer 3]}, php => {male => [Programmer 4]}}
-     
-   
+ *  Process the list and categorize programers into divisions, as below:
+ ```javascript
+{
+  "division_1": [
+    "Programmer 1",
+    "Programmer 2",
+    "Programmer 3",
+    "Programmer 4"
+  ],
+  "division_2": [
+    "Programmer 5",
+    "Programmer 6",
+    "Programmer 7"
+  ]
+}
+ ```
+ *  Process the list and categorize programers into divisions, then team, then gender, as below:
+ ```javascript
+{
+  "division_1": {
+    "java": {
+      "male": [
+        "Programmer 1",
+        "Programmer 2",
+        "Programmer 3"
+      ],
+      "female": [
+        "programmer 4"
+      ]
+    },
+    "php": {
+      "male": [
+        "Programmer 5, Programmer 6"
+      ],
+      "female": [
+        "Programm 7"
+      ]
+    }
+  }
+}
+ ``` 
     
