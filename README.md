@@ -11,7 +11,7 @@
     * common operations on collections: using streams vs for-loop
   
 ## Exercise 1
-* Given two collections of interested topics, ex: Java stream API, Java Concurrency, Object-Oriented Programming,...
+* Given two collections of interested topics, e.g: Java stream API, Java Concurrency, Object-Oriented Programming,...
     * one collection maintains a set of currently intersted topics (of a person)
     * one collection contains newly updated interested topics (a person may edit their interested topics)
     * a Topic has an unique id, a name, a description
