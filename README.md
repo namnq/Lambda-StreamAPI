@@ -25,7 +25,8 @@
  * Given a list of programmers in a company
     * a Programmer has id, division, team, gender, name
  *  Process the list and categorize programers into divisions, as below:
- ```javascript
+ 
+```javascript
 {
   "division_1": [
     "Programmer 1",
@@ -41,7 +42,8 @@
 }
  ```
  *  Process the list and categorize programers into divisions, then team, then gender, as below:
- ```javascript
+ 
+```javascript
 {
   "division_1": {
     "java": {
