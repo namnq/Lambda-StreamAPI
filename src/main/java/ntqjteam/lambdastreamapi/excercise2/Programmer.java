@@ -13,14 +13,14 @@ public class Programmer {
 
     private String team;
 
-    private String gender;
+    private Gender gender;
 
     public enum Gender {
         MALE,
         FEMALE
     }
 
-    public Programmer(String id, String name, String division, String team, String gender) {
+    public Programmer(String id, String name, String division, String team, Gender gender) {
         this.id = id;
         this.name = name;
         this.division = division;
@@ -44,7 +44,7 @@ public class Programmer {
         return team;
     }
 
-    public String getGender() {
+    public Gender getGender() {
         return gender;
     }
 
