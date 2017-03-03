@@ -3,6 +3,7 @@
 # Content
 ## Lambda Expression
 * What is Lambda Expression?
+* Functional interfaces?
 * Why do we need lambda expressions?
 
 ## Stream API
