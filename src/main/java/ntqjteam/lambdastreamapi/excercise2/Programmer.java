@@ -16,11 +16,10 @@ public class Programmer {
     private Gender gender;
 
     public enum Gender {
-        MALE,
-        FEMALE
+        MALE, FEMALE
     }
 
-    public Programmer(String id, String name, String division, String team, Gender gender) {
+    public Programmer(String id, String division, String team, Gender gender, String name) {
         this.id = id;
         this.name = name;
         this.division = division;
